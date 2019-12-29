@@ -1,3 +1,4 @@
+
 header {
 background:
     linear-gradient(rgba(102,51,153,.7), transparent 90%), 
@@ -160,4 +161,49 @@ th, td {
 	text-align: left; 
 	color: rgb(120,81,169); 
 	text-shadow: 2px 2px rgba(0,0,0,.15); 
+}
+@media(max-width: 600px){
+	header h1 {
+		color: white; 
+	}
+	#MA, #events_main{
+		margin-bottom: 75px; 
+	}
+	span.font-italic {
+		font-size: 12px; 
+	}
+	.Present {
+		display: block; 
+		max-width: 280px; 
+	}
+	#gallery_last {
+		margin-bottom: 55px; 
+	}
+	.newsContainer {
+		margin-bottom: 10px; 
+		height: 600px; 
+		color: gold; 
+		text-shadow: 0px 0px 4px black;
+	}
+	.trow {
+		padding-bottom: 100px; 
+	}
+}
+@media(min-width: 700px) and (max-width:1200px) {
+	.Present {
+		display: block; 
+		max-width: 200px; 
+	}
+	#gallery_last {
+		margin-bottom: 55px; 
+	}
+	#one, #two, #three, #four {
+		background-size: contain; 
+	}
+	.newsContainer {
+		margin-bottom: 10px;
+		color: purple; 	
+		text-shadow: 0px 0px 3px black; 
+		
+	}
 }
