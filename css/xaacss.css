@@ -188,6 +188,10 @@ th, td {
 	.trow {
 		padding-bottom: 100px; 
 	}
+	#last-p, #news-main, #last-event {
+		margin-bottom: 20px; 
+	}
+	
 }
 @media(min-width: 700px) and (max-width:1200px) {
 	.Present {
